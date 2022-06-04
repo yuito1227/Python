@@ -2,6 +2,9 @@ import sys
 
 
 def main(lines):
+    a = int(lines[0])
+    s = "positive" if a > 0 else str(a)
+    print(s)
 
 
 if __name__ == "__main__":

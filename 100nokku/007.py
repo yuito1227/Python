@@ -2,6 +2,9 @@ import sys
 
 
 def main(lines):
+    a = int(lines[0])
+    s = "zero" if a == 0 else "not zero"
+    print(s)
 
 
 if __name__ == "__main__":

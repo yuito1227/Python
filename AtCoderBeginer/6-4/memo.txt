@@ -1,10 +1,35 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun  1 00:50:43 2022
+### 　複数行　　###
 
-@author: yuito
-"""
-line = 0
+
+
+import sys
+
+def main(lines):
+    for i, line in enumerate(lines):
+        
+if __name__ == "__main__":
+    lines = []
+    for li in sys.stdin:
+        lines.append(li.rstrip("\r\n"))
+    main(lines)
+
+
+
+
+###   一行   ###
+
+
+def main(line):
+    a = int(line)
+    a,b,c = map(int,line.split())
+
+if __name__ == "__main__":
+    line = str(input())
+    main(line)
+
+
+
+
 
 
 # 文字列を受け取る場合
@@ -39,3 +64,4 @@ A = list(map(int, line.split()))
 
 # 小数列を受け取る場合
 A = list(map(float, line.split()))
+
